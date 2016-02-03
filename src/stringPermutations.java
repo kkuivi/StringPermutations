@@ -3,7 +3,7 @@ import java.util.ArrayList;
 /*This program takes in a String as an input stores all its permutations in list.*/
 public class stringPermutations {
 	public static void main(String [] args){
-		String str = "same";
+		String str = "example";
 		ArrayList<String> stringList = listStringPermutations(str);
 		outputList(stringList);
 	}
